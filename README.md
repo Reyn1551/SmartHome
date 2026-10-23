@@ -36,6 +36,13 @@ npm install
 npm start
 ```
 
+Untuk pengujian tanpa hardware, dua terminal lain:
+
+```bash
+npm run broker   # broker MQTT lokal: TCP 1883 dan WebSocket 9001
+npm run mock     # node ESP32 tiruan
+```
+
 Lalu pilih:
 
 - tekan `a` untuk emulator Android (butuh development build, lihat bawah),
